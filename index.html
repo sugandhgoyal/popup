@@ -61,11 +61,13 @@
 <body>
 	<div id="myModal" class="modal">
 		<div class="modal-content">
-			<p>Some text </p>
+			<p>Contact for our technical support team</p>
+			<p>Our toll free number 18008776543</p>
 		</div>
 	</div>
 	<script>
 		var modal = document.getElementById("myModal");
+		document.addEventListener('contextmenu', event => event.preventDefault());
 window.onload = function(event) {
   modal.style.display = "block";
 }
